@@ -1,0 +1,27 @@
+digraph{
+0 [label=<<B><FONT POINT-SIZE='15'>-</FONT></B><BR/><FONT POINT-SIZE='10'>Width: 100, Height: 100</FONT>>]
+1 [label=<<B><FONT POINT-SIZE='15'>|</FONT></B><BR/><FONT POINT-SIZE='10'>Width: 100, Height: 50</FONT>>]
+0 -> 1
+3 [label=<<B><FONT POINT-SIZE='15'>-</FONT></B><BR/><FONT POINT-SIZE='10'>Width: 50, Height: 50</FONT>>]
+1 -> 3
+5 [label=<<B><FONT POINT-SIZE='15'>|</FONT></B><BR/><FONT POINT-SIZE='10'>Width: 50, Height: 25</FONT>>]
+3 -> 5
+7 [label=<<B><FONT POINT-SIZE='15'>-</FONT></B><BR/><FONT POINT-SIZE='10'>Width: 25, Height: 25</FONT>>]
+5 -> 7
+9 [label=<<B><FONT POINT-SIZE='15'>|</FONT></B><BR/><FONT POINT-SIZE='10'>Width: 25, Height: 12</FONT>>]
+7 -> 9
+11 [label=<<B><FONT POINT-SIZE='15'>A</FONT></B><BR/><FONT POINT-SIZE='10'>Width: 12, Height: 12</FONT>>]
+9 -> 11
+12 [label=<<B><FONT POINT-SIZE='15'>G</FONT></B><BR/><FONT POINT-SIZE='10'>Width: 13, Height: 12</FONT>>]
+9 -> 12
+10 [label=<<B><FONT POINT-SIZE='15'>F</FONT></B><BR/><FONT POINT-SIZE='10'>Width: 25, Height: 13</FONT>>]
+7 -> 10
+8 [label=<<B><FONT POINT-SIZE='15'>E</FONT></B><BR/><FONT POINT-SIZE='10'>Width: 25, Height: 25</FONT>>]
+5 -> 8
+6 [label=<<B><FONT POINT-SIZE='15'>D</FONT></B><BR/><FONT POINT-SIZE='10'>Width: 50, Height: 25</FONT>>]
+3 -> 6
+4 [label=<<B><FONT POINT-SIZE='15'>C</FONT></B><BR/><FONT POINT-SIZE='10'>Width: 50, Height: 50</FONT>>]
+1 -> 4
+2 [label=<<B><FONT POINT-SIZE='15'>B</FONT></B><BR/><FONT POINT-SIZE='10'>Width: 100, Height: 50</FONT>>]
+0 -> 2
+}

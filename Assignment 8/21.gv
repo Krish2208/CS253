@@ -1,0 +1,6 @@
+digraph{
+0->1 [weight=2] 
+1->2 [weight=3] 
+1->4 [weight=5] 
+0->3 [weight=6]
+}
